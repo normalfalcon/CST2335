@@ -8,4 +8,9 @@
     <string name="SwitchText">Bật / tắt</string>
     <string name="EditText">Gõ đại cái gì đi</string>
     <string name="TextViewText">Đây là mấy cái lặt vặt:</string>
+    <string name="TextView1Lab3">Nhập email vào:</string>
+    <string name="TextView2Lab3">Nhap mat khau:</string>
+    <string name="EmailHint">Nhap email o day:</string>
+    <string name="LoginBtnText">Dang Nhap</string>
+
 </resources>

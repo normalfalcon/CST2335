@@ -7,5 +7,8 @@
     <string name="SwitchText">Switch on / off</string>
     <string name="EditText">Type your answer here</string>
     <string name="TextViewText">Here are my widgets:</string>
-
+    <string name="TextView1Lab3">Enter your email address:</string>
+    <string name="TextView2Lab3">Enter your password:</string>
+    <string name="EmailHint">Type email here:</string>
+    <string name="LoginBtnText">Login</string>
 </resources>
