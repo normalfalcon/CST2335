@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">AndroidLabs</string>
     <string name="hello_message">XIn Chào</string>
     <string name="ButtonText">bấm tôi đi</string>
-
+    <string name="ButtonText2">Tôi là cái nút</string>
+    <string name="CheckBoxText">Chơi em đi!</string>
+    <string name="SwitchText">Bật / tắt</string>
+    <string name="EditText">Gõ đại cái gì đi</string>
+    <string name="TextViewText">Đây là mấy cái lặt vặt:</string>
 </resources>
