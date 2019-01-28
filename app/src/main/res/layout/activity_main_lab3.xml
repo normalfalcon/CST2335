@@ -3,55 +3,54 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/TextView1"
+        android:id="@+id/Lab3TextView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/TextView1Lab3"
+        android:text="@string/Lab3TextView1"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"/>
 
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/Lab3editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="@string/EmailHint"
+        android:hint="@string/Lab3EmailHint"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/TextView1"
+        android:layout_below="@id/Lab3TextView1"
         />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Lab3textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/TextView2Lab3"
+        android:text="@string/Lab3TextView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/editText2"/>
+        android:layout_below="@id/Lab3editText2"/>
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/Lab3editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="@string/EmailHint"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/textView2"
+        android:layout_below="@id/Lab3textView2"
         />
     <Button
-        android:id="@+id/LoginBtn"
+        android:id="@+id/Lab3LoginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/editText3"
-        android:text="@string/LoginBtnText"
+        android:layout_below="@id/Lab3editText3"
+        android:text="@string/Lab3LoginBtnText"
         />
 
 </RelativeLayout>
