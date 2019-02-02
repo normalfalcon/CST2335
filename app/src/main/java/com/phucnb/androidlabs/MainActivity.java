@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
         loginBtn = (Button)findViewById(R.id.Lab3LoginBtn);
         loginBtn.setOnClickListener( c -> {
 
-            Intent profilePage = new Intent(MainActivity.this, ChatRoomActivity.class);
+            Intent profilePage = new Intent(MainActivity.this, ProfileActivity.class);
             //Give directions to go from this page, to SecondActivity
            // EditText et = (EditText)findViewById(R.id.Lab3editText2);
 
-           // profilePage.putExtra("emailTyped", et.getText().toString());
+            profilePage.putExtra("emailTyped", emailField.getText().toString());
 
             //Now make the transition:
             startActivityForResult( profilePage, 345);

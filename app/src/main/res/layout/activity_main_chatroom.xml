@@ -7,10 +7,12 @@
 
     <ListView
         android:id="@+id/ListView"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:dividerHeight="0dp"
+        android:divider="@android:color/transparent"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
+        android:layout_height="match_parent"
         android:layout_above="@id/SendBtn"/>
     <Button
         android:id="@+id/SendBtn"
