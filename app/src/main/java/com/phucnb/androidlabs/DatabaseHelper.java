@@ -35,6 +35,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + DB_TABLE);
         onCreate(db);
     }
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("DROP TABLE IF EXISTS " + DB_TABLE);
+        onCreate(db);
+    }
 
     //insert data
     public boolean insertData(String message, boolean isSend) {
@@ -56,8 +61,22 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String query = "Select * from "+DB_TABLE;
         Cursor cursor = db.rawQuery(query, null);
-        Log.v("Cursor Object", DatabaseUtils.dumpCursorToString(cursor));
+        printCursor(cursor);
         return cursor;
+    }
+
+    public void printCursor(Cursor cursor){
+        SQLiteDatabase db = this.getReadableDatabase();
+        Log.v("Database Version:", Integer.toString(db.getVersion()));
+        Log.v("Number of columns: ", Integer.toString(cursor.getColumnCount()));
+        for (int i = 0; i < cursor.getColumnCount(); i++){
+            Log.v("Column "+(i+1)+": ", cursor.getColumnName(i));
+        }
+        Log.v("Number of rows:", Integer.toString(cursor.getCount()));
+        Log.v("Cursor Object", DatabaseUtils.dumpCursorToString(cursor));
+
+
+
     }
 }
 

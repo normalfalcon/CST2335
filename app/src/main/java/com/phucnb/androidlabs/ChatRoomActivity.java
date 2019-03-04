@@ -7,9 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,7 +64,13 @@ public class ChatRoomActivity extends AppCompatActivity {
                 viewData();
             }
         });
-        Log.d("ChatRoomActivity","onCreate");
+
+        //This listens for items being clicked in the list view
+        listView.setOnItemLongClickListener(( parent,  view,  position,  id) -> {
+            Log.e("you clicked on :" , "item "+ position);
+
+            return true;
+        });
     }
 
     private void viewData(){
