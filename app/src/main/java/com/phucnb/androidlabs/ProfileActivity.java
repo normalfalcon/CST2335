@@ -14,7 +14,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     ImageButton takePictureBtn;
-    Button goToChatBtn;
+    Button goToChatBtn, goToToolbarBtn;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
 
     @Override
@@ -50,6 +50,13 @@ public class ProfileActivity extends AppCompatActivity {
 
         });
 
+        goToToolbarBtn = (Button)findViewById(R.id.GoToToolbarPage);
+        goToToolbarBtn.setOnClickListener(c -> {
+            Intent goToMenuPage = new Intent(ProfileActivity.this, TestToolbar.class);
+
+            startActivityForResult(goToMenuPage, 123);
+
+        });
 
         Log.d(ACTIVITY_NAME, "In function: onCreate()");
 

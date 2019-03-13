@@ -22,5 +22,6 @@
     <string name="SendText">Send</string>
     <string name="ReceiveText">Receive</string>
     <string name="ChatHint">Type here</string>
+    <string name="GoToToolbar">Go to Toolbar page</string>
 
 </resources>
