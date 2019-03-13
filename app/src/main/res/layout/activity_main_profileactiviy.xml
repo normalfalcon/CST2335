@@ -84,6 +84,14 @@
         android:layout_alignParentRight="true"
         android:text="@string/GoToChatText"
         android:layout_below="@id/ImagePictureTextView"/>
+    <Button
+        android:id="@+id/GoToToolbarPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/GoToToolbar"
+        android:layout_below="@id/GoToChatBtn"/>
 
 
 
