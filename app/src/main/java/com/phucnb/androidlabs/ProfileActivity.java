@@ -14,7 +14,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     ImageButton takePictureBtn;
-    Button goToChatBtn, goToToolbarBtn;
+    Button goToChatBtn, goToToolbarBtn, goToWeatherBtn;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
 
     @Override
@@ -55,6 +55,14 @@ public class ProfileActivity extends AppCompatActivity {
             Intent goToMenuPage = new Intent(ProfileActivity.this, TestToolbar.class);
 
             startActivityForResult(goToMenuPage, 123);
+
+        });
+
+        goToWeatherBtn = (Button)findViewById(R.id.GoToWeatherPage);
+        goToWeatherBtn.setOnClickListener(c -> {
+            Intent goToMenuPage = new Intent(ProfileActivity.this, WeatherForecast.class);
+
+            startActivityForResult(goToMenuPage, 234);
 
         });
 

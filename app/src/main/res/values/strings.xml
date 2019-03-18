@@ -23,5 +23,6 @@
     <string name="ReceiveText">Receive</string>
     <string name="ChatHint">Type here</string>
     <string name="GoToToolbar">Go to Toolbar page</string>
+    <string name="GoToWeather">Go to Weather page</string>
 
 </resources>
