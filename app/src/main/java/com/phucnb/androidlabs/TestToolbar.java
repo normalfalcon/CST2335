@@ -18,7 +18,7 @@ import android.support.design.widget.Snackbar;
 
 public class TestToolbar extends AppCompatActivity {
 
-    String overflowToast = "You clicked on the overflow menu";
+    String overflowToast = "Overflow menu";
     Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,10 +27,10 @@ public class TestToolbar extends AppCompatActivity {
 
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);//disappear the title
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
 
-        //add back navigation button
+
         if (getSupportActionBar() !=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -51,9 +51,9 @@ public class TestToolbar extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId())
         {
-            //what to do when the menu item is selected:
+
             case R.id.MenuItems_overflow:
-                //Show the toast immediately:
+
                 Toast.makeText(this, overflowToast, Toast.LENGTH_LONG).show();
                 break;
             case R.id.MenuItems_delete:
@@ -69,7 +69,6 @@ public class TestToolbar extends AppCompatActivity {
                         .setAction("Go Back?", e -> finish());
                 sb.show();
                 break;
-
         }
         return true;
     }
@@ -88,7 +87,7 @@ public class TestToolbar extends AppCompatActivity {
                 })
                 .setNegativeButton("Negative", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        // What to do on Cancel
+
                     }
                 }).setView(middle);
 

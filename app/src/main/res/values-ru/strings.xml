@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Labaratory</string>
+    <string name="app_name">Лабораторная</string>
     <string name="hello_message">Привет всем</string>
     <string name="ButtonText">Я кнопка</string>
     <string name="ButtonText2">Кнопка</string>

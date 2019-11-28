@@ -59,26 +59,24 @@ public class WeatherForecast extends AppCompatActivity {
         protected String doInBackground(String ... params) {
             try {
 
-                //get the string url:
+
                 String myUrl = params[0];
 
-                //create the network connection:
+
                 URL url = new URL(myUrl);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setReadTimeout(10000 /* milliseconds */);
-                conn.setConnectTimeout(15000 /* milliseconds */);
+                conn.setReadTimeout(10000);
+                conn.setConnectTimeout(15000);
                 conn.setRequestMethod("GET");
                 conn.setDoInput(true);
                 InputStream inStream = conn.getInputStream();
 
-                //create a pull parser:
                 XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
                 factory.setNamespaceAware(false);
                 XmlPullParser xpp = factory.newPullParser();
                 xpp.setInput( inStream  , "UTF-8");
 
 
-                //now loop over the XML:
                 while(xpp.getEventType() != XmlPullParser.END_DOCUMENT)
                 {
                     if(xpp.getEventType() == XmlPullParser.START_TAG)
@@ -126,7 +124,6 @@ public class WeatherForecast extends AppCompatActivity {
                                 } catch (Exception e) {
                                     Log.e("AsyncTask", "Error");
                                 }
-
 
 
                             }
