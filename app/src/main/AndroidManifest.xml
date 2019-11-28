@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.phucnb.androidlabs">
+    package="com.normalfalcon.androidlabs">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -13,17 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WeatherForecast"></activity>
-        <activity android:name=".TestToolbar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.normalfalcon.androidlabs.WeatherForecast"></activity>
+        <activity android:name="com.normalfalcon.androidlabs.TestToolbar" />
+        <activity android:name="com.normalfalcon.androidlabs.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".ChatRoomActivity" />
+        <activity android:name="com.normalfalcon.androidlabs.ProfileActivity" />
+        <activity android:name="com.normalfalcon.androidlabs.ChatRoomActivity" />
     </application>
 
 </manifest>

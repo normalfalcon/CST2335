@@ -14,4 +14,12 @@
     <string name="EmailHintText">Введите свой имейл</string>
     <string name="ImagePictureTextView">Нажмите на кнопку чтобы сделать фотографию</string>
     <string name="SendText">Лабораторная</string>
+    <string name="type_you_message_here">Напишите свое сообщение</string>
+    <string name="receive">получить</string>
+    <string name="profile">Профиль</string>
+    <string name="name">Имя</string>
+    <string name="picture">Фотография</string>
+    <string name="chat">Чат</string>
+    <string name="toolbar">Настройки</string>
+    <string name="weather">Погода</string>
 </resources>

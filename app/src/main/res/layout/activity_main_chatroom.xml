@@ -28,12 +28,12 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@id/SendBtn"
         android:layout_toLeftOf="@id/ReceiveBtn"
-        android:hint="@string/ChatHint"/>
+        android:hint="@string/type_you_message_here"/>
     <Button
         android:id="@+id/ReceiveBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="@string/ReceiveText"/>
+        android:text="@string/receive"/>
 </RelativeLayout>

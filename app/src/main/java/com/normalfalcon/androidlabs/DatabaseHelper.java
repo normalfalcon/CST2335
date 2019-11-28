@@ -1,4 +1,4 @@
-package com.phucnb.androidlabs;
+package com.normalfalcon.androidlabs;
 
 import android.content.ContentValues;
 import android.content.Context;

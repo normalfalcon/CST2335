@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Labaratory</string>
-    <string name="hello_message">Привет всем</string>
-    <string name="ButtonText">Я кнопка</string>
-    <string name="ButtonText2">Кнопка</string>
-    <string name="CheckBoxText">Проверить!</string>
-    <string name="SwitchText">Вкл \ выкл</string>
-    <string name="EditText">Ваш ответ здесь</string>
-    <string name="TextViewText">Мои виджеты:</string>
-    <string name="Lab3EmailHint">Напишите свой имейл:</string>
-    <string name="Lab3LoginBtnText">Логин</string>
-    <string name="EmailTextViewText">Ваш имейл:</string>
-    <string name="EmailHintText">Введите свой имейл</string>
-    <string name="ImagePictureTextView">Нажмите на кнопку чтобы сделать фотографию</string>
-    <string name="SendText">Лабораторная</string>
+    <string name="hello_message">Hello everyone</string>
+    <string name="ButtonText">I am a button</string>
+    <string name="ButtonText2">Button</string>
+    <string name="CheckBoxText">Check!</string>
+    <string name="SwitchText">Turn on/ off</string>
+    <string name="EditText">Your answer here</string>
+    <string name="TextViewText">My widgets:</string>
+    <string name="Lab3EmailHint">Type your email:</string>
+    <string name="Lab3LoginBtnText">Login</string>
+    <string name="EmailTextViewText">Your email:</string>
+    <string name="EmailHintText"> Email</string>
+    <string name="ImagePictureTextView">Press the button to take a picture</string>
+    <string name="SendText">Send</string>
+    <string name="type_you_message_here">Type your message here</string>
+    <string name="receive">receive</string>
+    <string name="profile">profile</string>
+    <string name="name">Name</string>
+    <string name="picture">Picture</string>
+    <string name="chat">Chat</string>
+    <string name="toolbar">Toolbar</string>
+    <string name="weather">Weather</string>
 </resources>

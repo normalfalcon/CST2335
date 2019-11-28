@@ -1,4 +1,4 @@
-package com.phucnb.androidlabs;
+package com.normalfalcon.androidlabs;
 
 public class MessageModel {
     public String message;

@@ -8,7 +8,7 @@
         android:id="@+id/ProfileTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ProfileText"
+        android:text="@string/profile"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"/>
@@ -17,7 +17,7 @@
         android:id="@+id/NameTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/NameText"
+        android:text="@string/name"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@id/ProfileTextView"/>
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/NameHintText"
+        android:hint="@string/name"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@id/NameTextView"
@@ -54,7 +54,7 @@
         android:id="@+id/PictureTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/PictureTextView"
+        android:text="@string/picture"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@id/EmailEditText"/>
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="@string/GoToChatText"
+        android:text="@string/chat"
         android:layout_below="@id/ImagePictureTextView"/>
     <Button
         android:id="@+id/GoToToolbarPage"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="@string/GoToToolbar"
+        android:text="@string/toolbar"
         android:layout_below="@id/GoToChatBtn"/>
     <Button
         android:id="@+id/GoToWeatherPage"
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="@string/GoToWeather"
+        android:text="@string/weather"
         android:layout_below="@id/GoToToolbarPage"/>
 
 

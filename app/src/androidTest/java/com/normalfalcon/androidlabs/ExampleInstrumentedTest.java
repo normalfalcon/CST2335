@@ -1,4 +1,4 @@
-package com.phucnb.androidlabs;
+package com.normalfalcon.androidlabs;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.phucnb.androidlabs", appContext.getPackageName());
+        assertEquals("com.normalfalcon.androidlabs", appContext.getPackageName());
     }
 }

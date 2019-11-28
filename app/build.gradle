@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.phucnb.androidlabs"
+        applicationId "com.normalfalcon.androidlabs"
         minSdkVersion 23
         targetSdkVersion 23
         versionCode 1
